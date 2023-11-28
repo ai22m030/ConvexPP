@@ -1,10 +1,9 @@
 ########################################################################################################################
-### MAGIC SQUARE TESTS
+### CONVEX HULL TESTS
 ########################################################################################################################
 
 add_executable(${CONVEX_HULL_PROJECT_NAME}Hull10
         ${CONVEX_HULL_TESTS_DIR}/convex_hull_10_test.cpp)
-        ##${CONVEX_HULL_SRC_DIR}/convex_hull.cpp)
 
 find_package(OpenMP REQUIRED)
 

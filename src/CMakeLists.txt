@@ -3,9 +3,7 @@
 ########################################################################################################################
 
 add_executable(${CONVEX_HULL_PROJECT_NAME}
-        ${CONVEX_HULL_SRC_DIR}/main.cpp
-        ${CONVEX_HULL_SRC_DIR}/program_options.cpp)
-        ##${CONVEX_HULL_SRC_DIR}/magic_square.cpp)
+        ${CONVEX_HULL_SRC_DIR}/main.cpp)
 
 find_package(OpenMP REQUIRED)
 
