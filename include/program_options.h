@@ -2,8 +2,8 @@
 // Created by Adnan Vatric on 18.02.23.
 //
 
-#ifndef MAGIC_SQUARE_PROGRAM_OPTIONS_H
-#define MAGIC_SQUARE_PROGRAM_OPTIONS_H
+#ifndef CONVEXHULL_PROGRAM_OPTIONS_H
+#define CONVEXHULL_PROGRAM_OPTIONS_H
 
 #include <iostream>
 #include <string_view>
@@ -47,4 +47,4 @@ namespace program_options {
     }
 }
 
-#endif //MAGIC_SQUARE_PROGRAM_OPTIONS_H
+#endif //CONVEXHULL_PROGRAM_OPTIONS_H
